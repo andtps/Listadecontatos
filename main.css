@@ -25,6 +25,7 @@ table{
 }
 
 input{
+    margin-top: 20px;
     margin-left: 5px;
     width: 40%;
 }
@@ -40,4 +41,10 @@ tbody tr td{
     border-bottom: 1px solid ;
 }
 
+.table{
+    height: 5px;
+}
 
+.border{
+    display: block;
+}
