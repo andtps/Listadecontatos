@@ -1,0 +1,43 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    background-color: rgb(109, 141, 228);
+    max-height: 200px; /* ou a altura desejada */
+    overflow-y: auto;
+}
+
+.container{
+    display: flex;
+    width: 960px;
+    height: 400px;
+    justify-content: center;
+    align-items: center;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+table{
+    width: 100%;
+}
+
+input{
+    margin-left: 5px;
+    width: 40%;
+}
+
+thead tr th{
+    padding: 40px;
+    border-bottom: 1px solid ;
+}
+
+tbody tr td{
+    text-align: center;
+    padding: 40px;
+    border-bottom: 1px solid ;
+}
+
+
